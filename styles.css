@@ -1,0 +1,35 @@
+* {
+    font-family: -apple-system, sans-serif;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+}
+
+#game-controls {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    position: fixed;
+    top: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+#game-board {
+    display: grid;
+    gap: 1px;
+    background-color: #fff;
+}
+
+.cell {
+    width: 20px;
+    height: 20px;
+    background-color: #ddd;
+}
